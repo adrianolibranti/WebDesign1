@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio di Libranti Adriano</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        h1 {
+            font-size: 3rem;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin: 40px 0px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin-bottom: 40px;
+        }
+
+        .hardware, .software {
+            margin: 60px 0;
+        }
+
+        .item-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .item {
+            flex: 1 1 200px;
+            max-width: 220px;
+            text-align: center;
+        }
+
+        .item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .item p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+
+        .contact {
+            background-color: #e0e0e0;
+            padding: 20px 0;
+        }
+
+        .contact h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .contact .icon {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .item {
+                flex: 1 1 100px;
+                max-width: 100px;
+            }
+
+            .contact h3, .contact p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <a href="D:\ABA\Materie\WebDesign1\index.html">
+            <img src="D:\ABA\Materie\WebDesign1\imgs\la firma.png" alt="Firma di Libranti Adriano"> 
+        </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="D:\ABA\Materie\WebDesign1\chisono.html"><strong>CHI SONO</strong></a></li>
+                <li><strong>ATTREZZATURA</strong></li>
+                <li><a href="D:\ABA\Materie\WebDesign1\contatti.html"><strong>CONTATTI</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       
+        <div class="container">
+            <h1>ATTREZZATURA</h1>
+            <h2>La mia attrezzatura comprende apparecchiature fisiche per realizzare video e foto ma anche specifici software di editing e grafica vettoriale</h2>
+    
+            <div class="hardware">
+                <h2>Hardware</h2>
+                <div class="item-grid">
+                    <div class="item">
+                        <img src="D:\ABA\Materie\WebDesign1\imgs\sony_a7iv_1200px.jpg" alt="Sony Alpha 7 IV">
+                        <p>Sony Alpha 7 IV</p>
+                    </div>
+                    <div class="item">
+                        <img src="D:\ABA\Materie\WebDesign1\imgs\a0150d61b076447ea95546d24f591da2@ultra.jpg" alt="DJI RS3">
+                        <p>DJI RS3</p>
+                    </div>
+                    <div class="item">
+                        <img src="D:\ABA\Materie\WebDesign1\imgs\gopro_hero8_black_1200px.jpg" alt="GoPro Hero 8">
+                        <p>GoPro Hero 8</p>
+                    </div>
+                    <div class="item">
+                        <img src="D:\ABA\Materie\WebDesign1\imgs\rodemicro.jpg" alt="RØDE VideoMicro Microfono Direzionale">
+                        <p>RØDE VideoMicro Microfono Direzionale</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="software">
+                <h2>Software</h2>
+                <div class="item-grid">
+                    <div class="item">
+                        <img src="D:\ABA\Materie\WebDesign1\imgs\figma-svgrepo-com.svg" alt="Software 1">
+                    </div>
+                    <div class="item">
+                        <img src="D:\ABA\Materie\WebDesign1\imgs\photoshop-svgrepo-com.svg" alt="Software 2">
+                    </div>
+                    <div class="item">
+                        <img src="D:\ABA\Materie\WebDesign1\imgs\illustrator-svgrepo-com.svg" alt="Software 3">
+                    </div>
+                    <div class="item">
+                        <img src="D:\ABA\Materie\WebDesign1\imgs\premiere-svgrepo-com.svg" alt="Software 4">
+                    </div>
+                    <div class="item">
+                        <img src="D:\ABA\Materie\WebDesign1\imgs\adobeaftereffects-svgrepo-com.svg" alt="Software 5">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+    </main>
+    <footer>
+        <div class="contact-info">
+            <h2>CONTATTI</h2>
+            <p><i class="fas fa-phone-alt"></i> +39 3202849214</p>
+            <p><i class="fas fa-envelope"></i> librantiadriano@gmail.com</p>
+            <a href= "https://www.instagram.com/libradri"> <p><i class="fab fa-instagram"></i> @libradri</p> </a>
+        </div>
+    </footer>
+</body>
+</html>

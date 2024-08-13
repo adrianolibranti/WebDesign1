@@ -1,0 +1,176 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo img {
+    max-height: 80px; 
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin-left: 40px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+/* Sezioni del portfolio */
+.portfolio-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.portfolio-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portfolio-section h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+}
+
+.scopri{
+    padding-top: 40px;
+    padding-left: 200px;
+    max-width: 1300px;
+}
+
+/* CHI SONO */
+.about-section {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+/* CHI SONO fine */
+.image-section {
+    flex: 0 0 40%; /* Occupare il 40% dello spazio */
+    
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.image-section img {
+    max-width: 30%;
+    max-height: 40%;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .about-section {
+        padding-right: 0;
+    }
+
+    .image-section {
+        flex: 0 0 auto;
+    }
+}
+
+
+/* mappa */
+.map{
+    padding-top: 40px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+
+/* Footer */
+footer {
+    background: #d1d1d1;
+    padding: 40px 0;
+    text-align: left;
+}
+
+footer .contact-info {
+    color: #333;
+}
+
+footer .contact-info h2 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+footer .contact-info p {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+footer .contact-info i {
+    color: #007BFF; 
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .discover .left, .discover .right {
+        flex: 1; 
+    }
+
+    .discover .left {
+        border-right: 2px dashed #007BFF; 
+    }
+
+    .discover .right {
+        margin-top: 0; 
+    }
+}
